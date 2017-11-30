@@ -47,11 +47,14 @@
 	}
 	
 	
+	
+	
+	
 	//获取某周第一天
 	function get_W_firstday ($date)
 	{
 		$timestamp = $date;
 		$sdate     = date('Y-m-d', $timestamp - (date('N', $timestamp) - 1) * 86400);
-
+//特尔他了我
 		return $sdate;
 	}
